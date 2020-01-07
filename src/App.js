@@ -2,20 +2,17 @@
 import React, { Component } from 'react';
 import './App.css';
 //importing buttons
-import SimpleButton from './components/buttons/SimpleButton';
-import StyledButton from './components/buttons/StyledButton';
+import SimpleButton from './components/defaultcontrols/SimpleButton';
+import StyledButton from './components/styledcontrols/StyledButton';
 //importing input fields
-import DefaultTextField from './components/inputs/DefaultTextField';
-import DefaultNumberField from './components/inputs/DefaultNumberField';
-import DefaultEmailField from './components/inputs/DefaultEmailField';
-import DefaultPassField from './components/inputs/DefaultPassField';
-
-import DefaultCheck from './components/inputs/DefaultCheck';
-import DefaultRadio from './components/inputs/DefaultRadio';
-
-import DefaultTextArea from './components/inputs/DefaultTextArea';
-
-import DefaultSelected from './components/inputs/DefaultSelected';
+import DefaultTextField from './components/defaultcontrols/DefaultTextField';
+import DefaultNumberField from './components/defaultcontrols/DefaultNumberField';
+import DefaultEmailField from './components/defaultcontrols/DefaultEmailField';
+import DefaultPassField from './components/defaultcontrols/DefaultPassField';
+import DefaultCheck from './components/defaultcontrols/DefaultCheck';
+import DefaultRadio from './components/defaultcontrols/DefaultRadio';
+import DefaultTextArea from './components/defaultcontrols/DefaultTextArea';
+import DefaultSelected from './components/defaultcontrols/DefaultSelected';
 
 export default class App extends Component {
 	render() {
